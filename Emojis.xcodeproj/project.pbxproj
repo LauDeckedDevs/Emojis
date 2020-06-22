@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D31DA4C32493A961006FA8E9 /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D31DA4C22493A961006FA8E9 /* Artboard 1.png */; };
 		D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612024916E38004A7D0A /* AppDelegate.swift */; };
 		D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612224916E38004A7D0A /* SceneDelegate.swift */; };
 		D3E2612524916E38004A7D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612424916E38004A7D0A /* ViewController.swift */; };
@@ -18,6 +17,7 @@
 		D3E2614324916E3C004A7D0A /* EmojisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2614224916E3C004A7D0A /* EmojisUITests.swift */; };
 		D3E2615224916EC9004A7D0A /* AboutLove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2615124916EC9004A7D0A /* AboutLove.ttf */; };
 		D3E261542491703E004A7D0A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E261532491703E004A7D0A /* RoundButton.swift */; };
+		D3EF48DF24A0DAB900594198 /* laudecked.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EF48DE24A0DAB800594198 /* laudecked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D31DA4C22493A961006FA8E9 /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
 		D3E2611D24916E38004A7D0A /* Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2612024916E38004A7D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E2612224916E38004A7D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		D3E2614424916E3C004A7D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E2615124916EC9004A7D0A /* AboutLove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AboutLove.ttf; sourceTree = "<group>"; };
 		D3E261532491703E004A7D0A /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D3EF48DE24A0DAB800594198 /* laudecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laudecked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		D31DA4C12493A93A006FA8E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D31DA4C22493A961006FA8E9 /* Artboard 1.png */,
+				D3EF48DE24A0DAB800594198 /* laudecked.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EF48DF24A0DAB900594198 /* laudecked.png in Resources */,
 				D3E2612D24916E3B004A7D0A /* LaunchScreen.storyboard in Resources */,
 				D3E2612A24916E3B004A7D0A /* Assets.xcassets in Resources */,
-				D31DA4C32493A961006FA8E9 /* Artboard 1.png in Resources */,
 				D3E2615224916EC9004A7D0A /* AboutLove.ttf in Resources */,
 				D3E2612824916E38004A7D0A /* Main.storyboard in Resources */,
 			);
