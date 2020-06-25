@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-CA-2jX">
-                                <rect key="frame" x="181" y="801" width="53" height="32"/>
+                                <rect key="frame" x="180.5" y="801" width="53" height="32"/>
                                 <segments>
                                     <segment title="1"/>
                                     <segment title="2"/>
@@ -135,20 +135,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zoL-uf-ahy">
-                                <rect key="frame" x="181" y="831" width="53" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
-                                </segments>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
-                                </connections>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="142" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥳"/>
@@ -161,9 +149,8 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="FAs-zl-Pkc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="305" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😳"/>
@@ -177,9 +164,8 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="ZsY-QU-W3g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="467" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😝"/>
@@ -193,34 +179,30 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="d9d-1I-a42"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suggest new emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Suggest new emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
                                 <rect key="frame" x="115" y="631" width="184" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emoji" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yze-L2-SgN">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emoji" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yze-L2-SgN">
                                 <rect key="frame" x="159" y="674" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="saveEmojiWithEmojiTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="3el-73-pW1"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Definition" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-bY-OgU">
-                                <rect key="frame" x="125" y="728" width="164" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Definition" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-bY-OgU">
+                                <rect key="frame" x="125" y="721" width="164" height="34"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="saveEmojiMeaningWithEmojiMeaningTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="Wd1-i5-qRC"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
-                                <rect key="frame" x="198" y="790" width="19" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
+                                <rect key="frame" x="198" y="770" width="19" height="20"/>
                                 <state key="normal" backgroundImage="square.and.arrow.up" catalog="system">
                                     <color key="titleColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -229,15 +211,48 @@
                                     <action selector="updateEmojiLibraryWithCuac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U51-I4-tdC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-2g-z0a">
-                                <rect key="frame" x="134" y="44" width="147" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-2g-z0a">
+                                <rect key="frame" x="133.5" y="44" width="147" height="67"/>
                                 <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zoL-uf-ahy">
+                                <rect key="frame" x="180.5" y="801" width="53" height="32"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                </segments>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2w8-0m-nJY" firstAttribute="top" secondItem="N5t-bY-OgU" secondAttribute="bottom" constant="16" id="4dt-As-WU8"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="zDV-JM-mPl" secondAttribute="trailing" constant="34" id="5Md-B9-B4j"/>
+                            <constraint firstItem="ZBF-cY-abv" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="5aS-zC-EJ7"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="ZBF-cY-abv" secondAttribute="trailing" constant="34" id="C7Q-gZ-Kpe"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="FGs-ow-9OZ"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="top" secondItem="zDV-JM-mPl" secondAttribute="bottom" constant="20" id="HJU-kS-nbD"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="height" secondItem="ZBF-cY-abv" secondAttribute="height" id="HrO-b3-epS"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="top" secondItem="ZBF-cY-abv" secondAttribute="bottom" constant="21" id="Q4k-m2-4az"/>
+                            <constraint firstItem="aVv-YR-aVW" firstAttribute="top" secondItem="Gh7-WG-61g" secondAttribute="bottom" constant="22" id="Sdz-Wb-yaH"/>
+                            <constraint firstItem="N5t-bY-OgU" firstAttribute="top" secondItem="yze-L2-SgN" secondAttribute="bottom" constant="13" id="UBh-Sy-K0A"/>
+                            <constraint firstItem="yze-L2-SgN" firstAttribute="top" secondItem="aVv-YR-aVW" secondAttribute="bottom" constant="17" id="cqv-4N-DZm"/>
+                            <constraint firstItem="ZBF-cY-abv" firstAttribute="top" secondItem="nsL-2g-z0a" secondAttribute="bottom" constant="31" id="czx-w5-v33"/>
+                            <constraint firstItem="zoL-uf-ahy" firstAttribute="top" secondItem="2w8-0m-nJY" secondAttribute="bottom" constant="11" id="f6n-e2-ZJj"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="width" secondItem="ZBF-cY-abv" secondAttribute="width" id="gwK-h0-7HE"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="bottom" secondItem="zoL-uf-ahy" secondAttribute="bottom" constant="30" id="n7g-sG-m27"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="nDB-wR-iWC"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="width" secondItem="ZBF-cY-abv" secondAttribute="width" id="rtI-9F-Xgn"/>
+                            <constraint firstItem="nsL-2g-z0a" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="vPJ-A7-hFE"/>
+                            <constraint firstItem="nsL-2g-z0a" firstAttribute="top" secondItem="bVh-Cr-KHq" secondAttribute="top" id="vaC-ip-bVb"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="height" secondItem="ZBF-cY-abv" secondAttribute="height" id="x3o-GZ-WPj"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="Gh7-WG-61g" secondAttribute="trailing" constant="34" id="yjD-ZL-c4F"/>
+                            <constraint firstItem="zoL-uf-ahy" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="yqR-5Y-Nsm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
