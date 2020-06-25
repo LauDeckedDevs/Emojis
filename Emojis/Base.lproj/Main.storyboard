@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,16 +20,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeB-gz-JZR">
-                                <rect key="frame" x="134" y="44" width="147" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeB-gz-JZR">
+                                <rect key="frame" x="133.5" y="44" width="147" height="67"/>
                                 <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="130" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="130" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥺"/>
@@ -42,9 +40,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uz-tK-a84"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="293" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="293" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥵"/>
@@ -57,9 +54,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1j-Ra-hti"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="455" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="455" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="💻"/>
@@ -72,20 +68,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-db-4tj"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-CA-2jX">
-                                <rect key="frame" x="181" y="831" width="53" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
-                                </segments>
-                                <connections>
-                                    <segue destination="h2v-8R-tOJ" kind="show" id="pLR-31-KgK"/>
-                                </connections>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="617" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="617" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😍"/>
@@ -98,15 +82,50 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xYG-Kn-KT8"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-CA-2jX">
+                                <rect key="frame" x="181" y="801" width="53" height="32"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                </segments>
+                                <connections>
+                                    <segue destination="h2v-8R-tOJ" kind="show" id="pLR-31-KgK"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="f4w-Lx-Iwm" firstAttribute="top" secondItem="VeB-gz-JZR" secondAttribute="bottom" constant="19" id="2Oa-pz-30U"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3fL-Yq-3QD"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3hM-91-6rF"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="top" secondItem="rqb-BV-Qa5" secondAttribute="bottom" constant="42" id="AeP-AW-nyr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bcd-Bj-4Re" secondAttribute="trailing" constant="35" id="Ik7-ua-2VP"/>
+                            <constraint firstItem="f4w-Lx-Iwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="MWW-t7-YZV"/>
+                            <constraint firstItem="VeB-gz-JZR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ORO-wJ-Oa2"/>
+                            <constraint firstItem="VeB-gz-JZR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pc7-4S-UOn"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="top" secondItem="bcd-Bj-4Re" secondAttribute="bottom" constant="20" id="PgX-Iu-TJa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4br-jX-ION" secondAttribute="trailing" constant="35" id="TWe-t2-Fsl"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-30" id="YM3-SV-A7q"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="cGY-CA-ucV"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="top" secondItem="4br-jX-ION" secondAttribute="bottom" constant="20" id="hzW-ml-Pje"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="jfX-WR-tM8"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="jgt-1U-6W3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f4w-Lx-Iwm" secondAttribute="trailing" constant="35" id="jx5-0j-Ury"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="muu-7E-UGO"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="pD7-Ue-0M7"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="top" secondItem="f4w-Lx-Iwm" secondAttribute="bottom" constant="21" id="s75-bP-sDY"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="sF7-SR-OZZ"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="taL-vZ-Q73"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqb-BV-Qa5" secondAttribute="trailing" constant="35" id="xpi-7T-RaQ"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="yyL-HH-73Z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="dsg-IJ-AyM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="371" y="244"/>
+            <point key="canvasLocation" x="369.56521739130437" y="243.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hlu-IW-Uak">
@@ -116,13 +135,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVl-kQ-j8g">
-                                <rect key="frame" x="134" y="44" width="147" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
-                                <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zoL-uf-ahy">
                                 <rect key="frame" x="181" y="831" width="53" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -217,6 +229,13 @@
                                     <action selector="updateEmojiLibraryWithCuac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U51-I4-tdC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-2g-z0a">
+                                <rect key="frame" x="134" y="44" width="147" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
+                                <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
@@ -230,6 +249,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
     </resources>
 </document>
