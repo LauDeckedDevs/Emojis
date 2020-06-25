@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,16 +20,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeB-gz-JZR">
-                                <rect key="frame" x="134" y="44" width="147" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeB-gz-JZR">
+                                <rect key="frame" x="133.5" y="44" width="147" height="67"/>
                                 <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="130" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="130" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥺"/>
@@ -42,9 +40,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uz-tK-a84"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="293" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="293" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥵"/>
@@ -57,9 +54,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1j-Ra-hti"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="455" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="455" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="💻"/>
@@ -72,20 +68,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-db-4tj"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-CA-2jX">
-                                <rect key="frame" x="181" y="831" width="53" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
-                                </segments>
-                                <connections>
-                                    <segue destination="h2v-8R-tOJ" kind="show" id="pLR-31-KgK"/>
-                                </connections>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="617" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="617" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😍"/>
@@ -98,15 +82,50 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xYG-Kn-KT8"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-CA-2jX">
+                                <rect key="frame" x="180.5" y="801" width="53" height="32"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                </segments>
+                                <connections>
+                                    <segue destination="h2v-8R-tOJ" kind="show" id="pLR-31-KgK"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="f4w-Lx-Iwm" firstAttribute="top" secondItem="VeB-gz-JZR" secondAttribute="bottom" constant="19" id="2Oa-pz-30U"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3fL-Yq-3QD"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3hM-91-6rF"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="top" secondItem="rqb-BV-Qa5" secondAttribute="bottom" constant="42" id="AeP-AW-nyr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bcd-Bj-4Re" secondAttribute="trailing" constant="35" id="Ik7-ua-2VP"/>
+                            <constraint firstItem="f4w-Lx-Iwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="MWW-t7-YZV"/>
+                            <constraint firstItem="VeB-gz-JZR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ORO-wJ-Oa2"/>
+                            <constraint firstItem="VeB-gz-JZR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pc7-4S-UOn"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="top" secondItem="bcd-Bj-4Re" secondAttribute="bottom" constant="20" id="PgX-Iu-TJa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4br-jX-ION" secondAttribute="trailing" constant="35" id="TWe-t2-Fsl"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-30" id="YM3-SV-A7q"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="cGY-CA-ucV"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="top" secondItem="4br-jX-ION" secondAttribute="bottom" constant="20" id="hzW-ml-Pje"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="jfX-WR-tM8"/>
+                            <constraint firstItem="rqb-BV-Qa5" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="jgt-1U-6W3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f4w-Lx-Iwm" secondAttribute="trailing" constant="35" id="jx5-0j-Ury"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="muu-7E-UGO"/>
+                            <constraint firstItem="bcd-Bj-4Re" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="pD7-Ue-0M7"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="top" secondItem="f4w-Lx-Iwm" secondAttribute="bottom" constant="21" id="s75-bP-sDY"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="height" secondItem="f4w-Lx-Iwm" secondAttribute="height" id="sF7-SR-OZZ"/>
+                            <constraint firstItem="tjl-CA-2jX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="taL-vZ-Q73"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqb-BV-Qa5" secondAttribute="trailing" constant="35" id="xpi-7T-RaQ"/>
+                            <constraint firstItem="4br-jX-ION" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="yyL-HH-73Z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="dsg-IJ-AyM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="371" y="244"/>
+            <point key="canvasLocation" x="369.56521739130437" y="243.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hlu-IW-Uak">
@@ -116,27 +135,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVl-kQ-j8g">
-                                <rect key="frame" x="134" y="44" width="147" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
-                                <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zoL-uf-ahy">
-                                <rect key="frame" x="181" y="831" width="53" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
-                                </segments>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
-                                </connections>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="142" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🥳"/>
@@ -149,9 +149,8 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="FAs-zl-Pkc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="305" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😳"/>
@@ -165,9 +164,8 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="ZsY-QU-W3g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="RoundButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="467" width="345" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="😝"/>
@@ -181,34 +179,30 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="d9d-1I-a42"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suggest new emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Suggest new emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
                                 <rect key="frame" x="115" y="631" width="184" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emoji" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yze-L2-SgN">
-                                <rect key="frame" x="159" y="674" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emoji" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yze-L2-SgN">
+                                <rect key="frame" x="172" y="674" width="70" height="34"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="saveEmojiWithEmojiTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="3el-73-pW1"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Definition" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-bY-OgU">
-                                <rect key="frame" x="125" y="728" width="164" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Definition" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-bY-OgU">
+                                <rect key="frame" x="156.5" y="721" width="101" height="34"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="saveEmojiMeaningWithEmojiMeaningTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="Wd1-i5-qRC"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
-                                <rect key="frame" x="198" y="790" width="19" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
+                                <rect key="frame" x="197.5" y="770" width="19" height="20"/>
                                 <state key="normal" backgroundImage="square.and.arrow.up" catalog="system">
                                     <color key="titleColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -217,8 +211,52 @@
                                     <action selector="updateEmojiLibraryWithCuac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U51-I4-tdC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-2g-z0a">
+                                <rect key="frame" x="133.5" y="44" width="147" height="67"/>
+                                <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
+                                <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="zoL-uf-ahy">
+                                <rect key="frame" x="180.5" y="801" width="53" height="32"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                </segments>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2w8-0m-nJY" firstAttribute="top" secondItem="N5t-bY-OgU" secondAttribute="bottom" constant="16" id="4dt-As-WU8"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="zDV-JM-mPl" secondAttribute="trailing" constant="34" id="5Md-B9-B4j"/>
+                            <constraint firstItem="ZBF-cY-abv" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="5aS-zC-EJ7"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="ZBF-cY-abv" secondAttribute="trailing" constant="34" id="C7Q-gZ-Kpe"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="FGs-ow-9OZ"/>
+                            <constraint firstItem="N5t-bY-OgU" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="HIe-ff-3gq"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="top" secondItem="zDV-JM-mPl" secondAttribute="bottom" constant="20" id="HJU-kS-nbD"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="height" secondItem="ZBF-cY-abv" secondAttribute="height" id="HrO-b3-epS"/>
+                            <constraint firstItem="yze-L2-SgN" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="ORh-m6-gcq"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="top" secondItem="ZBF-cY-abv" secondAttribute="bottom" constant="21" id="Q4k-m2-4az"/>
+                            <constraint firstItem="aVv-YR-aVW" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="RPu-4r-Pq7"/>
+                            <constraint firstItem="aVv-YR-aVW" firstAttribute="top" secondItem="Gh7-WG-61g" secondAttribute="bottom" constant="22" id="Sdz-Wb-yaH"/>
+                            <constraint firstItem="N5t-bY-OgU" firstAttribute="top" secondItem="yze-L2-SgN" secondAttribute="bottom" constant="13" id="UBh-Sy-K0A"/>
+                            <constraint firstItem="2w8-0m-nJY" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="Usy-vZ-bmg"/>
+                            <constraint firstItem="yze-L2-SgN" firstAttribute="top" secondItem="aVv-YR-aVW" secondAttribute="bottom" constant="17" id="cqv-4N-DZm"/>
+                            <constraint firstItem="ZBF-cY-abv" firstAttribute="top" secondItem="nsL-2g-z0a" secondAttribute="bottom" constant="31" id="czx-w5-v33"/>
+                            <constraint firstItem="zoL-uf-ahy" firstAttribute="top" secondItem="2w8-0m-nJY" secondAttribute="bottom" constant="11" id="f6n-e2-ZJj"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="width" secondItem="ZBF-cY-abv" secondAttribute="width" id="gwK-h0-7HE"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="bottom" secondItem="zoL-uf-ahy" secondAttribute="bottom" constant="30" id="n7g-sG-m27"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="leading" secondItem="bVh-Cr-KHq" secondAttribute="leading" constant="35" id="nDB-wR-iWC"/>
+                            <constraint firstItem="zDV-JM-mPl" firstAttribute="width" secondItem="ZBF-cY-abv" secondAttribute="width" id="rtI-9F-Xgn"/>
+                            <constraint firstItem="nsL-2g-z0a" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="vPJ-A7-hFE"/>
+                            <constraint firstItem="nsL-2g-z0a" firstAttribute="top" secondItem="bVh-Cr-KHq" secondAttribute="top" id="vaC-ip-bVb"/>
+                            <constraint firstItem="Gh7-WG-61g" firstAttribute="height" secondItem="ZBF-cY-abv" secondAttribute="height" id="x3o-GZ-WPj"/>
+                            <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="Gh7-WG-61g" secondAttribute="trailing" constant="34" id="yjD-ZL-c4F"/>
+                            <constraint firstItem="zoL-uf-ahy" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="yqR-5Y-Nsm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -230,6 +268,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
     </resources>
 </document>
