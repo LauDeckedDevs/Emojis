@@ -9,13 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    
     typealias Emojis = [String: String]
     var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac",
                              "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
+    
+    @IBOutlet var buttons: [RoundButton]!
+    private var usedEmojis: [String] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        usedEmojis.removeAll(keepingCapacity: false)
+        for button in buttons {
+            var buttonText = emojiDefs.keys.randomElement()
+            while usedEmojis.contains(buttonText!) {
+                buttonText = emojiDefs.keys.randomElement()
+            }
+            
+            if (!usedEmojis.contains(buttonText!)) {
+                usedEmojis.append(buttonText!)
+                button.setTitle(buttonText, for: UIControl.State.normal)
+            }
+        }
+    }
+    
     var emojiKey: String?
     var emojiValue: String?
     
