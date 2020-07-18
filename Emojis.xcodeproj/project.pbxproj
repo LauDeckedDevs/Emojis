@@ -16,7 +16,7 @@
 		D3E2613824916E3C004A7D0A /* EmojisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2613724916E3C004A7D0A /* EmojisTests.swift */; };
 		D3E2614324916E3C004A7D0A /* EmojisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2614224916E3C004A7D0A /* EmojisUITests.swift */; };
 		D3E2615224916EC9004A7D0A /* AboutLove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2615124916EC9004A7D0A /* AboutLove.ttf */; };
-		D3E261542491703E004A7D0A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E261532491703E004A7D0A /* RoundButton.swift */; };
+		D3E261542491703E004A7D0A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E261532491703E004A7D0A /* CustomButton.swift */; };
 		D3EF48DF24A0DAB900594198 /* laudecked.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EF48DE24A0DAB800594198 /* laudecked.png */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		D3E2614224916E3C004A7D0A /* EmojisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisUITests.swift; sourceTree = "<group>"; };
 		D3E2614424916E3C004A7D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E2615124916EC9004A7D0A /* AboutLove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AboutLove.ttf; sourceTree = "<group>"; };
-		D3E261532491703E004A7D0A /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D3E261532491703E004A7D0A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D3EF48DE24A0DAB800594198 /* laudecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laudecked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +118,7 @@
 				D3E2612024916E38004A7D0A /* AppDelegate.swift */,
 				D3E2612224916E38004A7D0A /* SceneDelegate.swift */,
 				D3E2612424916E38004A7D0A /* ViewController.swift */,
-				D3E261532491703E004A7D0A /* RoundButton.swift */,
+				D3E261532491703E004A7D0A /* CustomButton.swift */,
 				D3E2612B24916E3B004A7D0A /* LaunchScreen.storyboard */,
 				D3E2612624916E38004A7D0A /* Main.storyboard */,
 				D3E2612924916E3B004A7D0A /* Assets.xcassets */,
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E261542491703E004A7D0A /* RoundButton.swift in Sources */,
+				D3E261542491703E004A7D0A /* CustomButton.swift in Sources */,
 				D3E2612524916E38004A7D0A /* ViewController.swift in Sources */,
 				D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */,
 				D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */,

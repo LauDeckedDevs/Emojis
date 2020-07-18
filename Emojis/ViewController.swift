@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac",
                              "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
     
-    @IBOutlet var buttons: [RoundButton]!
+    @IBOutlet var buttons: [CustomButton]!
     private var usedEmojis: [String] = []
     
     override func viewDidLoad() {
