@@ -26,10 +26,10 @@
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Lx-Iwm" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="130" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <size key="titleShadowOffset" width="23" height="23"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="41"/>

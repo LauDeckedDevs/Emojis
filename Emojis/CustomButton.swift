@@ -29,15 +29,4 @@ import UIKit
                 self.layer.borderColor = borderColor.cgColor
         }
     }
-       func shadowOnviewWithcornerRadius(YourView:UIView)
-    {
-            YourView.layer.shadowColor = UIColor.black.cgColor;
-            YourView.layer.shadowOpacity = 0.5;
-            YourView.layer.shadowRadius  = 5;
-            YourView.layer.shadowOffset  = CGSize(width :0, height :0)
-            YourView.layer.masksToBounds = false;
-            YourView.layer.cornerRadius  =  2.0;
-            YourView.layer.borderWidth   = 0.5;
-            YourView.backgroundColor     = UIColor.white;
-    }
 }
