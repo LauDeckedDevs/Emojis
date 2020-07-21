@@ -16,7 +16,7 @@ import UIKit
 
         @IBInspectable var cornerRadius: CGFloat = 0{
             didSet{
-            self.layer.cornerRadius = cornerRadius
+                self.layer.cornerRadius = cornerRadius
             }
         }
     
@@ -31,6 +31,37 @@ import UIKit
         @IBInspectable var borderColor: UIColor = UIColor.clear{
             didSet{
                 self.layer.borderColor = borderColor.cgColor
+        }
+    }
+    
+        //MARK: - ButtonShadow
+    
+        @IBInspectable var shadowColor: UIColor = UIColor.gray {
+            didSet {
+                layer.shadowColor = shadowColor.cgColor
+        }
+    }
+        @IBInspectable var shadowOpacity: Float = 1.0 {
+            didSet {
+                layer.shadowOpacity = shadowOpacity
+            }
+        }
+
+        @IBInspectable var shadowRadius: CGFloat = 1.0 {
+            didSet {
+                layer.shadowRadius = shadowRadius
+            }
+        }
+
+        @IBInspectable var masksToBounds: Bool = true {
+            didSet {
+                layer.masksToBounds = masksToBounds
+            }
+        }
+
+        @IBInspectable var shadowOffset: CGSize = CGSize(width: 12, height: 12) {
+            didSet {
+                layer.shadowOffset = shadowOffset
         }
     }
 }
