@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //MARK: - Properties
+    
     typealias Emojis = [String: String]
     var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac",
                              "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
     
     @IBOutlet var buttons: [CustomButton]!
     private var usedEmojis: [String] = []
+    
+    //MARK: - View
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +40,8 @@ class ViewController: UIViewController {
     var emojiKey: String?
     var emojiValue: String?
     
+    //MARK: - DefinitionMessage
+    
     @IBAction func showMessage(sender: UIButton) {
     let wordToLookup = sender.titleLabel?.text
         for emoji in emojiDefs {
@@ -49,6 +55,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    //MARK: - AddEmojisFunction
     
     @IBAction func saveEmoji(emojiTextfield: UITextField) {
         emojiKey = emojiTextfield.text
