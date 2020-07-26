@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     //MARK: - Properties
     
     typealias Emojis = [String: String]
-    var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac",
-                             "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
+    var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac", "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
     
     @IBOutlet var buttons: [CustomButton]!
     private var usedEmojis: [String] = []
+    
     
     //MARK: - View
     
