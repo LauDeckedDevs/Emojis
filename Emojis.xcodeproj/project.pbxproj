@@ -86,29 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				D3EF48DE24A0DAB800594198 /* laudecked.png */,
-				D3E2612924916E3B004A7D0A /* Assets.xcassets */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		D386838F24E71A1D0083F679 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D3E2612024916E38004A7D0A /* AppDelegate.swift */,
-				D3E2612224916E38004A7D0A /* SceneDelegate.swift */,
-				D3E2612424916E38004A7D0A /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D386839024E71A5B0083F679 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D3ECC79324CDA444002EE2C8 /* Main.storyboard */,
-				D3E2612B24916E3B004A7D0A /* LaunchScreen.storyboard */,
-				D3E261532491703E004A7D0A /* CustomButton.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		D3E2611424916E38004A7D0A = {
@@ -134,10 +113,15 @@
 		D3E2611F24916E38004A7D0A /* Emojis */ = {
 			isa = PBXGroup;
 			children = (
-				D386838F24E71A1D0083F679 /* Controller */,
-				D386839024E71A5B0083F679 /* Views */,
 				D31DA4C12493A93A006FA8E9 /* Images */,
 				D3E2615024916E61004A7D0A /* Fonts */,
+				D3E2612024916E38004A7D0A /* AppDelegate.swift */,
+				D3E2612224916E38004A7D0A /* SceneDelegate.swift */,
+				D3E2612424916E38004A7D0A /* ViewController.swift */,
+				D3E261532491703E004A7D0A /* CustomButton.swift */,
+				D3ECC79324CDA444002EE2C8 /* Main.storyboard */,
+				D3E2612B24916E3B004A7D0A /* LaunchScreen.storyboard */,
+				D3E2612924916E3B004A7D0A /* Assets.xcassets */,
 				D3E2612E24916E3B004A7D0A /* Info.plist */,
 			);
 			path = Emojis;
