@@ -340,7 +340,7 @@
         <!--cardView-->
         <scene sceneID="VON-dZ-tNU">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" title="cardView" definesPresentationContext="YES" id="bJf-WD-aUp" customClass="ViewController" customModule="Emojis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" title="cardView" definesPresentationContext="YES" id="bJf-WD-aUp" customClass="CardViewController" customModule="Emojis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="owq-Ia-0Dj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
