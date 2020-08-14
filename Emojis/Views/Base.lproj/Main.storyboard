@@ -484,7 +484,7 @@
                     <connections>
                         <outlet property="definition" destination="15I-hp-ByV" id="mRg-Sf-4CS"/>
                         <outlet property="emoji" destination="3yf-BN-ffM" id="5BX-tF-zwj"/>
-                        <outlet property="similarEmojis" destination="pNX-Jn-ivE" id="GhS-R6-uFw"/>
+                        <outlet property="similarEmojis" destination="DcK-rI-Zj2" id="tqI-9m-zIG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMl-Yb-foF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

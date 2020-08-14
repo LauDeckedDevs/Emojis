@@ -16,9 +16,6 @@ class ViewController: UIViewController {
     var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac", "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
     
     @IBOutlet var buttons: [CustomButton]!
-    @IBOutlet weak var emoji: UILabel!
-    @IBOutlet weak var definition: UILabel!
-    @IBOutlet weak var similarEmojis: UILabel!
     private var usedEmojis: [String] = []
     
     
