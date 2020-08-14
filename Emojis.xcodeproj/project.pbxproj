@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D386839424E7239A0083F679 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839324E7239A0083F679 /* CardViewController.swift */; };
 		D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612024916E38004A7D0A /* AppDelegate.swift */; };
 		D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612224916E38004A7D0A /* SceneDelegate.swift */; };
 		D3E2612524916E38004A7D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612424916E38004A7D0A /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D386839324E7239A0083F679 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		D3E2611D24916E38004A7D0A /* Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2612024916E38004A7D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E2612224916E38004A7D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,8 @@
 				D3E2612024916E38004A7D0A /* AppDelegate.swift */,
 				D3E2612224916E38004A7D0A /* SceneDelegate.swift */,
 				D3E2612424916E38004A7D0A /* ViewController.swift */,
+				D386839324E7239A0083F679 /* CardViewController.swift */,
+				D3E261532491703E004A7D0A /* CustomButton.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,7 +110,8 @@
 			children = (
 				D3ECC79324CDA444002EE2C8 /* Main.storyboard */,
 				D3E2612B24916E3B004A7D0A /* LaunchScreen.storyboard */,
-				D3E261532491703E004A7D0A /* CustomButton.swift */,
+				D3E2615024916E61004A7D0A /* Fonts */,
+				D31DA4C12493A93A006FA8E9 /* Images */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,8 +141,6 @@
 			children = (
 				D386838F24E71A1D0083F679 /* Controller */,
 				D386839024E71A5B0083F679 /* Views */,
-				D31DA4C12493A93A006FA8E9 /* Images */,
-				D3E2615024916E61004A7D0A /* Fonts */,
 				D3E2612E24916E3B004A7D0A /* Info.plist */,
 			);
 			path = Emojis;
@@ -305,6 +308,7 @@
 				D3E261542491703E004A7D0A /* CustomButton.swift in Sources */,
 				D3E2612524916E38004A7D0A /* ViewController.swift in Sources */,
 				D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */,
+				D386839424E7239A0083F679 /* CardViewController.swift in Sources */,
 				D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
