@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D386839424E7239A0083F679 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839324E7239A0083F679 /* CardViewController.swift */; };
+		D386839724E8487E0083F679 /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839624E8487E0083F679 /* Emojis.swift */; };
+		D386839A24E84A070083F679 /* EmojiBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839924E84A070083F679 /* EmojiBank.swift */; };
 		D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612024916E38004A7D0A /* AppDelegate.swift */; };
 		D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612224916E38004A7D0A /* SceneDelegate.swift */; };
 		D3E2612524916E38004A7D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612424916E38004A7D0A /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		D386839324E7239A0083F679 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		D386839624E8487E0083F679 /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
+		D386839924E84A070083F679 /* EmojiBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBank.swift; sourceTree = "<group>"; };
 		D3E2611D24916E38004A7D0A /* Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2612024916E38004A7D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E2612224916E38004A7D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,15 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		D386839824E8488C0083F679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D386839624E8487E0083F679 /* Emojis.swift */,
+				D386839924E84A070083F679 /* EmojiBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D3E2611424916E38004A7D0A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +150,7 @@
 			children = (
 				D3E2612E24916E3B004A7D0A /* Info.plist */,
 				D386838F24E71A1D0083F679 /* Controller */,
+				D386839824E8488C0083F679 /* Model */,
 				D386839024E71A5B0083F679 /* Views */,
 				D386839524E726250083F679 /* Assets */,
 			);
@@ -301,6 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D386839724E8487E0083F679 /* Emojis.swift in Sources */,
+				D386839A24E84A070083F679 /* EmojiBank.swift in Sources */,
 				D3E261542491703E004A7D0A /* CustomButton.swift in Sources */,
 				D3E2612524916E38004A7D0A /* ViewController.swift in Sources */,
 				D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */,

@@ -12,7 +12,8 @@ class CardViewController: UIViewController {
     
     //MARK: - Properties
     
-    @IBOutlet weak var emoji: UILabel!
+    
+    @IBOutlet weak var titleLabel: UINavigationItem!
     @IBOutlet weak var definition: UILabel!
     @IBOutlet weak var similarEmojis: UILabel!
     
@@ -20,6 +21,5 @@ class CardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //ViewDidLoad
     }
 }
