@@ -21,5 +21,8 @@ class CardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*for button in {
+            //titleLabel.title = "Emoji: \(button.titleLabel!.text ?? "nil")"
+        } */
     }
 }

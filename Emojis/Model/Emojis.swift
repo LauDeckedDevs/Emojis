@@ -20,8 +20,8 @@ class Emojis {
     //MARK: - Initializer
     
     init(emoji: String, emojiDefinition: String, emojiTag: String) {
-        emoji = emoji
-        definition = emojiDefinition
-        emojiTag = emojiTag
+        self.emoji = emoji
+        self.definition = emojiDefinition
+        self.emojiTag = emojiTag
     }
 }

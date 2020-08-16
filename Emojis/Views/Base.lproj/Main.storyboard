@@ -238,11 +238,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Smq-6S-6pw"/>
-                                    <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="d9d-1I-a42"/>
-                                    <segue destination="O6L-2D-PS9" kind="popoverPresentation" popoverAnchorView="Gh7-WG-61g" id="FpV-Oe-0QU">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="O6L-2D-PS9" kind="show" id="qJy-H1-3ah"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sugerir nuevos emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
@@ -363,6 +359,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3Q-Cz-9eM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O6L-2D-PS9" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ff0-4I-REI"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="fRL-rC-4z8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>

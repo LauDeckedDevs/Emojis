@@ -16,14 +16,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="TNZ-Uc-MZE">
-                                <rect key="frame" x="87" y="311.5" width="240" height="273"/>
+                                <rect key="frame" x="87" y="385" width="240" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="eo9-Ix-hnT"/>
+                                    <constraint firstAttribute="width" constant="240" id="kkV-Bb-VQr"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TNZ-Uc-MZE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BWS-TX-Vtl"/>
-                            <constraint firstItem="TNZ-Uc-MZE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="C63-7d-Qrh"/>
-                            <constraint firstItem="TNZ-Uc-MZE" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="15:56" id="vck-mq-VJX"/>
+                            <constraint firstItem="TNZ-Uc-MZE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d2c-gp-mMh"/>
+                            <constraint firstItem="TNZ-Uc-MZE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tHu-dF-wFT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

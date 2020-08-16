@@ -12,9 +12,7 @@ class ViewController: UIViewController {
     
     //MARK: - Properties
     
-    typealias Emojis = [String: String]
-    var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac", "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
-    
+    let allEmojis = EmojiBank()
     @IBOutlet var buttons: [CustomButton]!
     private var usedEmojis: [String] = []
     
@@ -25,10 +23,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         usedEmojis.removeAll(keepingCapacity: false)
         for button in buttons {
-            var buttonText = emojiDefs.keys.randomElement()
+            var buttonText = allEmojis.emojiList.randomElement()?.emoji
             while usedEmojis.contains(buttonText!) {
-                buttonText = emojiDefs.keys.randomElement()
-            }
+                buttonText = allEmojis.emojiList.randomElement()?.emoji            }
             
             if (!usedEmojis.contains(buttonText!)) {
                 usedEmojis.append(buttonText!)
@@ -44,9 +41,9 @@ class ViewController: UIViewController {
     
     @IBAction func showMessage(sender: UIButton) {
     let wordToLookup = sender.titleLabel?.text
-        for emoji in emojiDefs {
-            if (emoji.key == wordToLookup) {
-                let alertController = UIAlertController(title: "Meaning", message: emoji.value,preferredStyle: UIAlertController.Style.alert
+        for emoji in allEmojis.emojiList {
+            if (emoji.emoji == wordToLookup) {
+                let alertController = UIAlertController(title: "Significado", message: emoji.definition, preferredStyle: UIAlertController.Style.alert
                 )
                 alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,
                 handler: nil)
@@ -66,11 +63,11 @@ class ViewController: UIViewController {
         emojiValue = emojiMeaningTextfield.text
     }
     
-    @IBAction func updateEmojiLibrary(cuac: UIButton) {
+    /*@IBAction func updateEmojiLibrary(cuac: UIButton) {
         var title = ""
         var message = ""
         if (emojiValue != nil && emojiKey != nil) {
-            emojiDefs.updateValue(emojiValue ?? "", forKey: emojiKey ?? "")
+            allEmojis.emojiList.append(Emojis(emojiDefinition ?? "", forKey: emojiKey ?? "")
             emojiValue = nil ; emojiKey = nil
             title = "Ala"
             message = "ha funchionado owo"
@@ -89,7 +86,14 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-   /* func meow(maullido: String) {
+   func meow(maullido: String) {
         print(maullido)
     } */
+    @IBAction func mockSuggestEmojis(sender: UIButton) {
+        let alert = UIAlertController(
+            title: "Ala",
+            message: "Has sugerido un nuevo emoji :O", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Oki", style: .default))
+        self.present(alert, animated: true, completion: nil)
+    }
 }
