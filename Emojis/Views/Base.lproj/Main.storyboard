@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="369.56521739130437" y="243.75"/>
+            <point key="canvasLocation" x="332" y="242"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hlu-IW-Uak">
@@ -242,7 +242,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sugerir nuevos emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
-                                <rect key="frame" x="94.5" y="627" width="225.5" height="29"/>
+                                <rect key="frame" x="94" y="627" width="226" height="29"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -331,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5wC-HX-l0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398.5507246376812" y="243.75"/>
+            <point key="canvasLocation" x="1225" y="242"/>
         </scene>
         <!--Emoji-->
         <scene sceneID="VON-dZ-tNU">
@@ -351,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMl-Yb-foF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3092.753623188406" y="243.75"/>
+            <point key="canvasLocation" x="2820" y="244"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fw7-Rg-vg3">
@@ -360,7 +360,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O6L-2D-PS9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ff0-4I-REI"/>
-                    <size key="freeformSize" width="414" height="896"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="fRL-rC-4z8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -377,7 +376,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="2493" y="243"/>
+            <point key="canvasLocation" x="2217" y="244"/>
         </scene>
     </scenes>
     <resources>
