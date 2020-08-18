@@ -1,0 +1,6 @@
+framework module Pods_EmojisTests {
+  umbrella header "Pods-EmojisTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
