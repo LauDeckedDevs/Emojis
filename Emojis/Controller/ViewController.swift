@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             if (emoji.emoji == wordToLookup) {
                 let alertController = UIAlertController(title: "Significado", message: emoji.definition, preferredStyle: UIAlertController.Style.alert
                 )
-                alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,
+                alertController.addAction(UIAlertAction(title: "Oki", style: UIAlertAction.Style.default,
                 handler: nil)
                 )
                present(alertController, animated: true, completion: nil)
