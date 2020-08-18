@@ -6,7 +6,6 @@ target 'Emojis' do
   use_frameworks!
 
   # Pods for Emojis
-  pod 'AppCenter'
 
   target 'EmojisTests' do
     inherit! :search_paths
