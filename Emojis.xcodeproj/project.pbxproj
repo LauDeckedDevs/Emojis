@@ -13,14 +13,14 @@
 		D386839424E7239A0083F679 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839324E7239A0083F679 /* CardViewController.swift */; };
 		D386839724E8487E0083F679 /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839624E8487E0083F679 /* Emojis.swift */; };
 		D386839A24E84A070083F679 /* EmojiBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839924E84A070083F679 /* EmojiBank.swift */; };
+		D386839F24EC9A7E0083F679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386839E24EC9A7E0083F679 /* ViewController.swift */; };
+		D38683A124EC9B270083F679 /* AboutLove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38683A024EC9B270083F679 /* AboutLove.ttf */; };
 		D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612024916E38004A7D0A /* AppDelegate.swift */; };
 		D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612224916E38004A7D0A /* SceneDelegate.swift */; };
-		D3E2612524916E38004A7D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2612424916E38004A7D0A /* ViewController.swift */; };
 		D3E2612A24916E3B004A7D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E2612924916E3B004A7D0A /* Assets.xcassets */; };
 		D3E2612D24916E3B004A7D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E2612B24916E3B004A7D0A /* LaunchScreen.storyboard */; };
 		D3E2613824916E3C004A7D0A /* EmojisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2613724916E3C004A7D0A /* EmojisTests.swift */; };
 		D3E2614324916E3C004A7D0A /* EmojisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2614224916E3C004A7D0A /* EmojisUITests.swift */; };
-		D3E2615224916EC9004A7D0A /* AboutLove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E2615124916EC9004A7D0A /* AboutLove.ttf */; };
 		D3E261542491703E004A7D0A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E261532491703E004A7D0A /* CustomButton.swift */; };
 		D3ECC79524CDA444002EE2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3ECC79324CDA444002EE2C8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -55,10 +55,11 @@
 		D386839324E7239A0083F679 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		D386839624E8487E0083F679 /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
 		D386839924E84A070083F679 /* EmojiBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBank.swift; sourceTree = "<group>"; };
+		D386839E24EC9A7E0083F679 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D38683A024EC9B270083F679 /* AboutLove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AboutLove.ttf; sourceTree = "<group>"; };
 		D3E2611D24916E38004A7D0A /* Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2612024916E38004A7D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E2612224916E38004A7D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3E2612424916E38004A7D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3E2612924916E3B004A7D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E2612C24916E3B004A7D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E2612E24916E3B004A7D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		D3E2613E24916E3C004A7D0A /* EmojisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2614224916E3C004A7D0A /* EmojisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisUITests.swift; sourceTree = "<group>"; };
 		D3E2614424916E3C004A7D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3E2615124916EC9004A7D0A /* AboutLove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AboutLove.ttf; sourceTree = "<group>"; };
 		D3E261532491703E004A7D0A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D3ECC79424CDA444002EE2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +114,7 @@
 		D386838F24E71A1D0083F679 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D3E2612424916E38004A7D0A /* ViewController.swift */,
+				D386839E24EC9A7E0083F679 /* ViewController.swift */,
 				D386839324E7239A0083F679 /* CardViewController.swift */,
 				D3E2612024916E38004A7D0A /* AppDelegate.swift */,
 				D3E2612224916E38004A7D0A /* SceneDelegate.swift */,
@@ -205,7 +205,7 @@
 		D3E2615024916E61004A7D0A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				D3E2615124916EC9004A7D0A /* AboutLove.ttf */,
+				D38683A024EC9B270083F679 /* AboutLove.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -220,7 +220,6 @@
 				0E272BAC3B39CEA592AA4691 /* Pods-EmojisTests.debug.xcconfig */,
 				6494BD359E26E03D57355C7E /* Pods-EmojisTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -333,8 +332,8 @@
 			files = (
 				D3ECC79524CDA444002EE2C8 /* Main.storyboard in Resources */,
 				D3E2612D24916E3B004A7D0A /* LaunchScreen.storyboard in Resources */,
+				D38683A124EC9B270083F679 /* AboutLove.ttf in Resources */,
 				D3E2612A24916E3B004A7D0A /* Assets.xcassets in Resources */,
-				D3E2615224916EC9004A7D0A /* AboutLove.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +430,8 @@
 				D386839724E8487E0083F679 /* Emojis.swift in Sources */,
 				D386839A24E84A070083F679 /* EmojiBank.swift in Sources */,
 				D3E261542491703E004A7D0A /* CustomButton.swift in Sources */,
-				D3E2612524916E38004A7D0A /* ViewController.swift in Sources */,
 				D3E2612124916E38004A7D0A /* AppDelegate.swift in Sources */,
+				D386839F24EC9A7E0083F679 /* ViewController.swift in Sources */,
 				D386839424E7239A0083F679 /* CardViewController.swift in Sources */,
 				D3E2612324916E38004A7D0A /* SceneDelegate.swift in Sources */,
 			);

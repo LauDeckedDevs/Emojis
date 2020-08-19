@@ -14,8 +14,9 @@ class CardViewController: UIViewController {
     
     
     @IBOutlet weak var titleLabel: UINavigationItem!
-    @IBOutlet weak var definition: UILabel!
-    @IBOutlet weak var similarEmojis: UILabel!
+    @IBOutlet weak var definitionLabel: UILabel!
+    @IBOutlet weak var similarEmojisLabels: UILabel!
+    @IBOutlet var tagLabel: UILabel!
     
     //MARK: - View
 
