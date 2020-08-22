@@ -448,6 +448,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Emoji:" id="0qM-64-jQG"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="definitionLabel" destination="nh8-Hm-juy" id="KWS-sw-JDe"/>
+                        <outlet property="similarEmojisLabels" destination="h7u-ml-2yR" id="urP-S9-A3y"/>
+                        <outlet property="tagLabel" destination="FNn-e9-euM" id="hDN-de-s2r"/>
+                        <outlet property="titleLabel" destination="0qM-64-jQG" id="O6L-FH-c82"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMl-Yb-foF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
