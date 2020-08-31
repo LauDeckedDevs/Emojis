@@ -39,7 +39,7 @@
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="16"/>
@@ -61,7 +61,7 @@
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="16"/>
@@ -83,7 +83,7 @@
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="16"/>
@@ -102,7 +102,7 @@
                                         <real key="value" value="41"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -186,7 +186,7 @@
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="16"/>
@@ -208,7 +208,7 @@
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -228,7 +228,7 @@
                                         <real key="value" value="41"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="0.76000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
