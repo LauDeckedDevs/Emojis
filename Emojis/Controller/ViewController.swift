@@ -11,16 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: - Properties
-    
-    typealias Emojis = [String: String]
-    var emojiDefs: Emojis = ["🥺": "Morritos", "😍": "In love", "😘": "Besito", "💻": "Quiero mi mac", "🥵": "Horny", "🥳": "fiesta", "😝": "Lengua fuera", "😳": "vergüenza"]
-    
+        
     @IBOutlet var buttons: [CustomButton]!
-    @IBOutlet weak var emoji: UILabel!
-    @IBOutlet weak var definition: UILabel!
-    @IBOutlet weak var similarEmojis: UILabel!
+    let allEmojis = EmojiBank()
     private var usedEmojis: [String] = []
-    
+    var emojiField: String?
+    var meaningField: String?
     
     //MARK: - View
     
@@ -28,10 +24,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         usedEmojis.removeAll(keepingCapacity: false)
         for button in buttons {
-            var buttonText = emojiDefs.keys.randomElement()
+            var buttonText = allEmojis.emojiList.randomElement()?.emoji
             while usedEmojis.contains(buttonText!) {
-                buttonText = emojiDefs.keys.randomElement()
-            }
+                buttonText = allEmojis.emojiList.randomElement()?.emoji            }
             
             if (!usedEmojis.contains(buttonText!)) {
                 usedEmojis.append(buttonText!)
@@ -40,18 +35,15 @@ class ViewController: UIViewController {
         }
     }
     
-    var emojiKey: String?
-    var emojiValue: String?
-    
     //MARK: - DefinitionMessage
     
     @IBAction func showMessage(sender: UIButton) {
     let wordToLookup = sender.titleLabel?.text
-        for emoji in emojiDefs {
-            if (emoji.key == wordToLookup) {
-                let alertController = UIAlertController(title: "Meaning", message: emoji.value,preferredStyle: UIAlertController.Style.alert
+        for emoji in allEmojis.emojiList {
+            if (emoji.emoji == wordToLookup) {
+                let alertController = UIAlertController(title: "Significado", message: emoji.definition, preferredStyle: UIAlertController.Style.alert
                 )
-                alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,
+                alertController.addAction(UIAlertAction(title: "Oki", style: UIAlertAction.Style.default,
                 handler: nil)
                 )
                present(alertController, animated: true, completion: nil)
@@ -59,40 +51,47 @@ class ViewController: UIViewController {
         }
     }
     
-    //MARK: - AddEmojisFunction
+    //MARK: - FakeEmojiSuggestion
     
     @IBAction func saveEmoji(emojiTextfield: UITextField) {
-        emojiKey = emojiTextfield.text
+        emojiField = emojiTextfield.text
     }
     
     @IBAction func saveEmojiMeaning(emojiMeaningTextfield: UITextField) {
-        emojiValue = emojiMeaningTextfield.text
+        meaningField = emojiMeaningTextfield.text
     }
     
-    @IBAction func updateEmojiLibrary(cuac: UIButton) {
-        var title = ""
-        var message = ""
-        if (emojiValue != nil && emojiKey != nil) {
-            emojiDefs.updateValue(emojiValue ?? "", forKey: emojiKey ?? "")
-            emojiValue = nil ; emojiKey = nil
-            title = "Ala"
-            message = "ha funchionado owo"
+    @IBAction func mockSuggestEmojis(sender: UIButton) {
+        if (emojiField != nil) && (meaningField != nil){
+            let alert = UIAlertController(
+                title: "Ala",
+                message: "Has sugerido un nuevo emoji :O",
+                preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Oki", style: .default))
+            self.present(alert, animated: true, completion: nil)
         } else {
-            title = "Ala..."
-            message = "ha fallado u.u"
+            let alert = UIAlertController(
+                title: "Ala...",
+                message: "Algo falló u.u",
+                preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Oki", style: .default))
+            self.present(alert, animated: true, completion: nil)
         }
-        let alertController = UIAlertController(
-            title: title,
-            message: message,
-            preferredStyle: UIAlertController.Style.alert
-         )
-         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,
-         handler: nil)
-         )
-        present(alertController, animated: true, completion: nil)
     }
     
-   /* func meow(maullido: String) {
-        print(maullido)
-    } */
+//MARK: - Swipes
+
+    @IBAction func leftSwipe() {
+        swipeGestures(sender: UISwipeGestureRecognizer(), segueID: "secondView")
+    }
+
+    @IBAction func rightSwipe() {
+        swipeGestures(sender: UISwipeGestureRecognizer(), segueID: "firstView")
+    }
+    
+        //MARK: - SwipeGestures
+
+    func swipeGestures(sender: Any, segueID: String) {
+        self.performSegue(withIdentifier: segueID, sender: nil)
+        }
 }
