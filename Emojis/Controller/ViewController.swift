@@ -78,4 +78,20 @@ class ViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }
     }
+    
+//MARK: - Swipes
+
+    @IBAction func leftSwipe() {
+        SwipeSegue(sender: UISwipeGestureRecognizer(), segueID: "secondView")
+    }
+
+    @IBAction func rightSwipe() {
+        SwipeSegue(sender: UISwipeGestureRecognizer(), segueID: "firstView")
+    }
+    
+        //MARK: - SwipeGestureSegueFunc
+
+    func SwipeSegue(sender: Any, segueID: String) {
+        self.performSegue(withIdentifier: segueID, sender: nil)
+        }
 }
