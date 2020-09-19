@@ -122,11 +122,12 @@
                                     <segment title="2"/>
                                 </segments>
                                 <connections>
-                                    <segue destination="h2v-8R-tOJ" kind="show" id="pLR-31-KgK"/>
+                                    <action selector="leftSwipe" destination="BYZ-38-t0r" eventType="valueChanged" id="lKn-hK-CKu"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="f4w-Lx-Iwm" firstAttribute="top" secondItem="VeB-gz-JZR" secondAttribute="bottom" constant="18" id="2Oa-pz-30U"/>
                             <constraint firstItem="bcd-Bj-4Re" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3fL-Yq-3QD"/>
@@ -153,6 +154,9 @@
                             <constraint firstItem="4br-jX-ION" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="yyL-HH-73Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="TQL-ZH-B1K" appends="YES" id="M5s-PN-bV8"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="dsg-IJ-AyM"/>
                     <connections>
@@ -160,9 +164,15 @@
                         <outletCollection property="buttons" destination="4br-jX-ION" collectionClass="NSMutableArray" id="W7r-gZ-mZF"/>
                         <outletCollection property="buttons" destination="bcd-Bj-4Re" collectionClass="NSMutableArray" id="5GP-zA-FqA"/>
                         <outletCollection property="buttons" destination="rqb-BV-Qa5" collectionClass="NSMutableArray" id="1Bg-Zo-bm1"/>
+                        <segue destination="h2v-8R-tOJ" kind="presentation" identifier="secondView" id="5Pp-EK-oMx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="TQL-ZH-B1K">
+                    <connections>
+                        <action selector="leftSwipe" destination="BYZ-38-t0r" id="01i-Ik-fcZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="332" y="242"/>
         </scene>
@@ -175,7 +185,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="132.5" width="345" height="144"/>
+                                <rect key="frame" x="35" y="142" width="345" height="140.5"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <userDefinedRuntimeAttributes>
@@ -197,7 +207,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="297.5" width="345" height="143.5"/>
+                                <rect key="frame" x="35" y="303.5" width="345" height="141"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <userDefinedRuntimeAttributes>
@@ -220,7 +230,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="461" width="345" height="144"/>
+                                <rect key="frame" x="35" y="464.5" width="345" height="140.5"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <userDefinedRuntimeAttributes>
@@ -274,7 +284,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LauDecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-2g-z0a">
-                                <rect key="frame" x="82.5" y="45" width="249" height="57.5"/>
+                                <rect key="frame" x="133.5" y="45" width="147" height="67"/>
                                 <fontDescription key="fontDescription" name="AboutLove" family="About Love" pointSize="49"/>
                                 <color key="textColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -286,11 +296,12 @@
                                     <segment title="2"/>
                                 </segments>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
+                                    <action selector="rightSwipe" destination="h2v-8R-tOJ" eventType="valueChanged" id="aOE-cD-GAB"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="2w8-0m-nJY" firstAttribute="top" secondItem="N5t-bY-OgU" secondAttribute="bottom" constant="16" id="4dt-As-WU8"/>
                             <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="zDV-JM-mPl" secondAttribute="trailing" constant="34" id="5Md-B9-B4j"/>
@@ -320,17 +331,27 @@
                             <constraint firstItem="zoL-uf-ahy" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="yqR-5Y-Nsm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Iri-HG-OJn" appends="YES" id="D7L-aU-Vb1"/>
+                        </connections>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="svs-0C-nWs"/>
                     <connections>
                         <outletCollection property="buttons" destination="ZBF-cY-abv" collectionClass="NSMutableArray" id="lae-n0-Ney"/>
                         <outletCollection property="buttons" destination="zDV-JM-mPl" collectionClass="NSMutableArray" id="Vsx-o6-Zeh"/>
                         <outletCollection property="buttons" destination="Gh7-WG-61g" collectionClass="NSMutableArray" id="weK-YE-srg"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="firstView" id="odJ-rd-mme"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5wC-HX-l0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Iri-HG-OJn">
+                    <connections>
+                        <action selector="rightSwipe" destination="h2v-8R-tOJ" id="eiw-UL-IRG"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1225" y="242"/>
+            <point key="canvasLocation" x="1172" y="242"/>
         </scene>
         <!--Emoji-->
         <scene sceneID="VON-dZ-tNU">
