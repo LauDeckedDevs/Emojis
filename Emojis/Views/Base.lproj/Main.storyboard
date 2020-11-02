@@ -248,7 +248,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="6Xn-QM-YiU" kind="show" id="UJ6-T4-5lg"/>
+                                    <action selector="cardViewSegueWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="4Su-A6-WkI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sugerir nuevos emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
@@ -342,6 +342,7 @@
                         <outletCollection property="buttons" destination="zDV-JM-mPl" collectionClass="NSMutableArray" id="Vsx-o6-Zeh"/>
                         <outletCollection property="buttons" destination="Gh7-WG-61g" collectionClass="NSMutableArray" id="weK-YE-srg"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="firstView" id="odJ-rd-mme"/>
+                        <segue destination="6Xn-QM-YiU" kind="presentation" identifier="cardViewSegue" id="D1h-cB-ZCx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5wC-HX-l0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -351,7 +352,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1172" y="242"/>
+            <point key="canvasLocation" x="932" y="242"/>
         </scene>
         <!--Emoji-->
         <scene sceneID="VON-dZ-tNU">
@@ -503,10 +504,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAz-8J-6Qa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2141" y="240"/>
+            <point key="canvasLocation" x="2132" y="242"/>
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="32" height="32"/>
     </resources>
 </document>

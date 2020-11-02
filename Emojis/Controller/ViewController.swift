@@ -8,8 +8,12 @@
 
 import UIKit
 
+protocol Meow {
+    func purr(emoji: String)
+}
+
 class ViewController: UIViewController {
-    
+
     //MARK: - Properties
         
     @IBOutlet var buttons: [CustomButton]!
@@ -17,6 +21,8 @@ class ViewController: UIViewController {
     private var usedEmojis: [String] = []
     var emojiField: String?
     var meaningField: String?
+    var labelEmoji: String = ""
+    var delegate: Meow?
     
     //MARK: - View
     
@@ -94,4 +100,11 @@ class ViewController: UIViewController {
     func swipeGestures(sender: Any, segueID: String) {
         self.performSegue(withIdentifier: segueID, sender: nil)
         }
+
+    //MARK: - CardViewSegue
+    
+    @IBAction func cardViewSegue(sender: UIButton) {
+        delegate?.purr(emoji: sender.titleLabel?.text ?? "nil")
+        self.performSegue(withIdentifier: "cardViewSegue", sender: nil)
+    }
 }

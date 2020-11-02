@@ -8,22 +8,32 @@
 
 import UIKit
 
-class CardViewController: UIViewController {
-    
+class CardViewController: UIViewController, Meow {
+ 
     //MARK: - Properties
-    
     
     @IBOutlet weak var titleLabel: UINavigationItem!
     @IBOutlet weak var definitionLabel: UILabel!
     @IBOutlet weak var similarEmojisLabels: UILabel!
     @IBOutlet var tagLabel: UILabel!
+    var labelEmoji: String?
+    let allEmojis = EmojiBank()
     
     //MARK: - View
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*for button in {
-            //titleLabel.title = "Emoji: \(button.titleLabel!.text ?? "nil")"
-        } */
+        titleLabel.title = "Emoji: \(labelEmoji ?? "nil")"
+        for emoji in allEmojis.emojiList {
+            if labelEmoji == emoji.emoji {
+                definitionLabel.text = "\(emoji.definition)"
+            }
+        }
     }
+    
+    //MARK: - NameLater
+    
+    func purr(emoji: String) {
+         labelEmoji = emoji
+     }
 }
