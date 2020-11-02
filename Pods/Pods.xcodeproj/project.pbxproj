@@ -36,17 +36,17 @@
 		3B5610391D84C7090DC192254BE96167 /* Pods-Emojis-EmojisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emojis-EmojisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		48EA35C1E02D58EB399E5C20FA840CD8 /* Pods-Emojis-EmojisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emojis-EmojisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F069819F4FBFAC5E712B97E5F1B4A7D /* Pods-Emojis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Emojis-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FC4B525C31538D0B1A18FA14EAF7B05 /* Pods_Emojis_EmojisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Emojis_EmojisUITests.framework; path = "Pods-Emojis-EmojisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC4B525C31538D0B1A18FA14EAF7B05 /* Pods_Emojis_EmojisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emojis_EmojisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB8F26703DACAFF8944B108AE785897 /* Pods-Emojis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Emojis-dummy.m"; sourceTree = "<group>"; };
 		7471636ED30C9AF466CF4B18879A6EC8 /* Pods-Emojis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Emojis-umbrella.h"; sourceTree = "<group>"; };
-		799B2B92141FC16ABEACFB5BFC3B6E96 /* Pods_EmojisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmojisTests.framework; path = "Pods-EmojisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799B2B92141FC16ABEACFB5BFC3B6E96 /* Pods_EmojisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		883FCC7A29F4FDCDCDDD910B1A7BF9FF /* Pods-Emojis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emojis.release.xcconfig"; sourceTree = "<group>"; };
 		88F8DD9382DDCF5EB0A660F91BF59711 /* Pods-Emojis-EmojisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Emojis-EmojisUITests-umbrella.h"; sourceTree = "<group>"; };
 		89BBEC064424602ED87B7035C88FB811 /* Pods-EmojisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmojisTests-dummy.m"; sourceTree = "<group>"; };
 		906C0F9A3E870840E43BA02BF180C693 /* Pods-Emojis-EmojisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Emojis-EmojisUITests.modulemap"; sourceTree = "<group>"; };
 		912495C78D3F14F3F0C910194E581DAD /* Pods-Emojis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Emojis.modulemap"; sourceTree = "<group>"; };
 		95B88C3871EFDC3B0F639DD4C68DA61E /* Pods-EmojisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmojisTests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8D2B116FCED483C68AA4CE2263D0C7 /* Pods-Emojis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emojis-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0528195D7D033EA8EBD17E2B721E4F3 /* Pods-EmojisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB0122822BA29F4155580078754E49D /* Pods-EmojisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmojisTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		E31F5D189484FD18643E5D0DAC58DF88 /* Pods-Emojis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emojis-Info.plist"; sourceTree = "<group>"; };
 		E9856FDCAE9F665B1A68A3330C1824B6 /* Pods-Emojis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emojis.debug.xcconfig"; sourceTree = "<group>"; };
 		FE50BA0CACFB64550FFF330DF12EFFF9 /* Pods-EmojisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmojisTests.modulemap"; sourceTree = "<group>"; };
-		FF9B64FEB24ABF3454F81F2077F957F0 /* Pods_Emojis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Emojis.framework; path = "Pods-Emojis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9B64FEB24ABF3454F81F2077F957F0 /* Pods_Emojis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emojis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,7 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1210;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -460,6 +460,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -678,6 +679,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
