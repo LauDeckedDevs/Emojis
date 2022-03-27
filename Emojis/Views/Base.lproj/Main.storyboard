@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -49,7 +51,7 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uz-tK-a84"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4br-jX-ION" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="293" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -71,7 +73,7 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1j-Ra-hti"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Bj-4Re" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="455" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -93,7 +95,7 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-db-4tj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqb-BV-Qa5" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="617" width="344" height="142"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -126,7 +128,8 @@
                                 </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="f4w-Lx-Iwm" firstAttribute="top" secondItem="VeB-gz-JZR" secondAttribute="bottom" constant="19" id="2Oa-pz-30U"/>
                             <constraint firstItem="bcd-Bj-4Re" firstAttribute="width" secondItem="f4w-Lx-Iwm" secondAttribute="width" id="3fL-Yq-3QD"/>
@@ -152,7 +155,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqb-BV-Qa5" secondAttribute="trailing" constant="35" id="xpi-7T-RaQ"/>
                             <constraint firstItem="4br-jX-ION" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="yyL-HH-73Z"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="dsg-IJ-AyM"/>
                     <connections>
@@ -174,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBF-cY-abv" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="142" width="345" height="140.5"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -196,7 +198,7 @@
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="FAs-zl-Pkc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-JM-mPl" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
                                 <rect key="frame" x="35" y="303.5" width="345" height="141"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
@@ -217,32 +219,6 @@
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O56-5y-oF4"/>
                                     <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="ZsY-QU-W3g"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
-                                <rect key="frame" x="35" y="464.5" width="345" height="140.5"/>
-                                <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="41"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                        <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="16"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Smq-6S-6pw"/>
-                                    <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="d9d-1I-a42"/>
-                                    <segue destination="bJf-WD-aUp" kind="popoverPresentation" popoverAnchorView="Gh7-WG-61g" id="FpV-Oe-0QU">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sugerir nuevos emojis:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-YR-aVW">
@@ -267,7 +243,7 @@
                                     <action selector="saveEmojiMeaningWithEmojiMeaningTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="Wd1-i5-qRC"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-0m-nJY">
                                 <rect key="frame" x="197.5" y="769" width="19" height="21"/>
                                 <color key="tintColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="square.and.arrow.up" catalog="system">
@@ -294,7 +270,30 @@
                                     <segue destination="BYZ-38-t0r" kind="showDetail" id="Kx8-nJ-9nR"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-WG-61g" customClass="CustomButton" customModule="Emojis" customModuleProvider="target">
+                                <rect key="frame" x="35" y="464" width="345" height="140.5"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="41"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="h2v-8R-tOJ" eventType="touchUpInside" id="zvK-EQ-BgY"/>
+                                </connections>
+                            </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2w8-0m-nJY" firstAttribute="top" secondItem="N5t-bY-OgU" secondAttribute="bottom" constant="16" id="4dt-As-WU8"/>
@@ -324,7 +323,6 @@
                             <constraint firstItem="bVh-Cr-KHq" firstAttribute="trailing" secondItem="Gh7-WG-61g" secondAttribute="trailing" constant="34" id="yjD-ZL-c4F"/>
                             <constraint firstItem="zoL-uf-ahy" firstAttribute="centerX" secondItem="DnW-6a-yq7" secondAttribute="centerX" id="yqR-5Y-Nsm"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bVh-Cr-KHq"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
@@ -342,11 +340,11 @@
             <objects>
                 <viewController autoresizesArchivedViewToFullSize="NO" title="cardView" definesPresentationContext="YES" id="bJf-WD-aUp" customClass="CardViewController" customModule="Emojis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="owq-Ia-0Dj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3gK-HZ-8EQ">
-                                <rect key="frame" x="20" y="38" width="150.5" height="49.5"/>
+                                <rect key="frame" x="20" y="82" width="150.5" height="49.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jO-5K-sVI">
                                         <rect key="frame" x="0.0" y="0.0" width="106.5" height="49.5"/>
@@ -363,7 +361,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ynX-RI-l5f">
-                                <rect key="frame" x="134" y="207" width="147.5" height="59"/>
+                                <rect key="frame" x="134" y="251" width="147.5" height="59"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definición:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4l-VJ-f9M">
                                         <rect key="frame" x="21.5" y="0.0" width="105" height="29"/>
@@ -383,7 +381,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emojis similares:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cU1-FY-gWn">
-                                <rect key="frame" x="127" y="332" width="160.5" height="29.5"/>
+                                <rect key="frame" x="127" y="376" width="160.5" height="29.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cU1-FY-gWn" secondAttribute="height" multiplier="160:29" constant="-2.2586206896551744" id="KgG-ju-Uow"/>
                                 </constraints>
@@ -392,7 +390,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="92" translatesAutoresizingMaskIntoConstraints="NO" id="bn1-jR-AYQ">
-                                <rect key="frame" x="54" y="370" width="307" height="43"/>
+                                <rect key="frame" x="54" y="414" width="307" height="43"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🖥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcK-rI-Zj2">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="43"/>
@@ -418,7 +416,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="ZEp-pc-mRC">
-                                <rect key="frame" x="87" y="479" width="240.5" height="156"/>
+                                <rect key="frame" x="87" y="523" width="240.5" height="156"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sugerir emojis similares:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99i-EV-I7H">
                                         <rect key="frame" x="0.0" y="0.0" width="240.5" height="29"/>
@@ -442,7 +440,7 @@
                                             <action selector="saveEmojiMeaningWithEmojiMeaningTextfield:" destination="h2v-8R-tOJ" eventType="editingChanged" id="BbB-oc-V7C"/>
                                         </connections>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeU-9n-xoL">
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeU-9n-xoL">
                                         <rect key="frame" x="111" y="135" width="19" height="21"/>
                                         <color key="tintColor" red="0.91764705879999997" green="0.74901960779999999" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" backgroundImage="square.and.arrow.up" catalog="system">
@@ -459,7 +457,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="age-F5-Zi9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="age-F5-Zi9" firstAttribute="trailing" secondItem="3gK-HZ-8EQ" secondAttribute="trailing" constant="243.5" id="16u-h6-YP5"/>
                             <constraint firstItem="bn1-jR-AYQ" firstAttribute="leading" secondItem="age-F5-Zi9" secondAttribute="leading" constant="54" id="2ax-tM-Tm8"/>
@@ -479,8 +478,8 @@
                             <constraint firstItem="ynX-RI-l5f" firstAttribute="top" secondItem="owq-Ia-0Dj" secondAttribute="topMargin" constant="207" id="ncu-3T-n3Y"/>
                             <constraint firstItem="bn1-jR-AYQ" firstAttribute="top" secondItem="cU1-FY-gWn" secondAttribute="bottom" constant="8.5" id="pQu-Tt-ScJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="age-F5-Zi9"/>
                     </view>
+                    <navigationItem key="navigationItem" id="t4a-Qs-a5W"/>
                     <connections>
                         <outlet property="definition" destination="15I-hp-ByV" id="mRg-Sf-4CS"/>
                         <outlet property="emoji" destination="3yf-BN-ffM" id="5BX-tF-zwj"/>
@@ -492,7 +491,33 @@
             <point key="canvasLocation" x="2183" y="244"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="4br-jX-ION">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="Gh7-WG-61g">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="ZBF-cY-abv">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="bcd-Bj-4Re">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="f4w-Lx-Iwm">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="rqb-BV-Qa5">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+        <designable name="zDV-JM-mPl">
+            <size key="intrinsicContentSize" width="30" height="72"/>
+        </designable>
+    </designables>
     <resources>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
